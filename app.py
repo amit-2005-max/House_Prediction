@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 model = pickle.load(open("house_model.pkl", "rb"))
 
-# Home page
+# Home page Amit
 @app.route('/')
 def home():
     return render_template("index.html")
